@@ -1,6 +1,6 @@
 services:
   backend:
-    image: ghcr.io/scicatproject/backend-next:v5.1.1
+    image: registry.jcns.frm2.tum.de/jcns/scicat/backend:cd94ebaefa3f048747f443f2c376e3d7f6b4eb87
     depends_on:
       mongodb:
         condition: service_started
